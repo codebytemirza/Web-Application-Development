@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Practice</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Introduction -->
+        <section id="home">
+            <h2>Introduction</h2>
+            <p>This is a paragraph introducing the website. It gives an overview of the content and purpose of the site.</p>
+        </section>
+
+        <!-- Section 2: About -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Here is some information about us. This section includes details about the team or the purpose of the website.</p>
+            <img src="about-us.jpg" alt="About Us Image" width="300">
+        </section>
+
+        <!-- Section 3: Services -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </section>
+
+        <!-- Section 4: Contact -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
